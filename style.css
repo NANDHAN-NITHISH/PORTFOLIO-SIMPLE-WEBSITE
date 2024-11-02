@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Bona Nova SC", serif;
+}
+.container{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-one__contact{
+    background-color: aqua;
+    color:white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.section-one__name{
+    font-size: 40px;
+}
+.section-one__web{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-5__desc{
+    margin-top: 10px;
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-five__title a{
+    color: skyblue;
+}
+.section-three__desc li ,.section-four li{
+    list-style:none;
+}
+.section-three{
+    background-color: #6462fd;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.section-four{
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.contact-form{
+    padding: 20px;
+}
+.contact-form__input,.contact-form__submit{
+     margin-top: 10px;
+    border: none;
+}
+.contact-form__input{
+    border-bottom: black solid 1px;
+}
+.contact-form__submit{
+    background-color: aqua;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+:hover.section-one__contact,:hover.contact-form__submit{
+    background-color: rgb(247, 166, 16);
+    color: black;
+}
